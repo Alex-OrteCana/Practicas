@@ -1,18 +1,53 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Arreglos : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public GameObject panelAlertas;
+    public string[] textoAlertas;
+
+    public List<string> usuarios = new List<string>();
+
+    public TMP_InputField nombreUsuario;
+    public TMP_InputField nombreNuevoUsuario;
+    public TMP_Text alertasDisplay;
+
     void Start()
+    { 
+        usuarios.Add(item: "Alex");
+        usuarios.Add(item: "Vane");
+        usuarios.Add(item: "Fany");
+    }
+    public void AccederConUsuario()
     {
-        
+        if(usuarios.Contains(nombreUsuario.text))
+        {
+            panelAlertas.SetActive(true);
+            alertasDisplay.text = textoAlertas[0];
+        }
+        else
+        {
+            panelAlertas.SetActive(true);
+            alertasDisplay.text = textoAlertas[1];
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void CrearUsuario()
     {
-        
+        if (usuarios.Contains(nombreNuevoUsuario.text))
+        {
+            panelAlertas.SetActive(true);
+            alertasDisplay.text = textoAlertas[2];
+        }
+        else
+        {
+            usuarios.Add(nombreNuevoUsuario.text);
+            panelAlertas.SetActive(true);
+            alertasDisplay.text = textoAlertas[3];
+        }
     }
+
 }
