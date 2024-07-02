@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Calculadora.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/AudioPlayer.unity
+    guid: aeecc4edc6507a147b5fc7edded8c10a
+  - enabled: 1
+    path: Assets/Scenes/InicioSesion.unity
+    guid: c20eb7805e584a545ab8e144524f851d
+  - enabled: 1
+    path: Assets/Scenes/Selector.unity
+    guid: a08c5b4fd46a8504d9d48b14bf1f5980
   m_configObjects: {}
