@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 3709893}
   - component: {fileID: 3709892}
   m_Layer: 5
-  m_Name: Cubierta
+  m_Name: Mango
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 69199288}
   - component: {fileID: 69199287}
   m_Layer: 5
-  m_Name: Pastel
+  m_Name: Varita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -573,7 +573,7 @@ GameObject:
   - component: {fileID: 726823625}
   - component: {fileID: 726823624}
   m_Layer: 5
-  m_Name: Decoracion
+  m_Name: Nucleo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
