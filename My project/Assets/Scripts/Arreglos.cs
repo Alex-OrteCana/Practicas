@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Arreglos : MonoBehaviour
 {
-
     public GameObject panelAlertas;
     public string[] textoAlertas;
+    public GameObject menuSeleccion; // Nuevo GameObject para el menú de selección
+    public GameObject panelAcceder; // GameObject para el panel de acceso
+    public GameObject panelNuevoUsuario; // GameObject para el panel de nuevo usuario
 
     public List<string> usuarios = new List<string>();
 
@@ -16,22 +19,47 @@ public class Arreglos : MonoBehaviour
     public TMP_Text alertasDisplay;
 
     void Start()
-    { 
+    {
         usuarios.Add(item: "Alex");
         usuarios.Add(item: "Vane");
         usuarios.Add(item: "Fany");
+
+        // Asegurarse de que el menú de selección y el panel de alertas estén desactivados al inicio
+        if (menuSeleccion != null)
+        {
+            menuSeleccion.SetActive(false);
+        }
+        if (panelAlertas != null)
+        {
+            panelAlertas.SetActive(false);
+        }
     }
+
     public void AccederConUsuario()
     {
-        if(usuarios.Contains(nombreUsuario.text))
+        if (usuarios.Contains(nombreUsuario.text))
         {
-            panelAlertas.SetActive(true);
-            alertasDisplay.text = textoAlertas[0];
+            // Mostrar el menú de selección y ocultar el panel de acceso
+            if (menuSeleccion != null)
+            {
+                menuSeleccion.SetActive(true);
+            }
+            if (panelAcceder != null)
+            {
+                panelAcceder.SetActive(false);
+            }
+            if (panelAlertas != null)
+            {
+                panelAlertas.SetActive(false);
+            }
         }
         else
         {
-            panelAlertas.SetActive(true);
-            alertasDisplay.text = textoAlertas[1];
+            if (panelAlertas != null)
+            {
+                panelAlertas.SetActive(true);
+                alertasDisplay.text = textoAlertas[1];
+            }
         }
     }
 
@@ -39,15 +67,31 @@ public class Arreglos : MonoBehaviour
     {
         if (usuarios.Contains(nombreNuevoUsuario.text))
         {
-            panelAlertas.SetActive(true);
-            alertasDisplay.text = textoAlertas[2];
+            if (panelAlertas != null)
+            {
+                panelAlertas.SetActive(true);
+                alertasDisplay.text = textoAlertas[2];
+            }
         }
         else
         {
             usuarios.Add(nombreNuevoUsuario.text);
-            panelAlertas.SetActive(true);
-            alertasDisplay.text = textoAlertas[3];
+            if (panelAlertas != null)
+            {
+                panelAlertas.SetActive(true);
+                alertasDisplay.text = textoAlertas[3];
+            }
         }
     }
 
+    // Nuevas funciones para cargar escenas
+    public void CargarAudioPlayer()
+    {
+        SceneManager.LoadScene("AudioPlayer");
+    }
+
+    public void CargarSelector()
+    {
+        SceneManager.LoadScene("Selector");
+    }
 }

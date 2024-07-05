@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad45555be57a8164e9558f8db9cb3493
+guid: 963d99f4cb6792946bb6d33a89a9bec1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -119,42 +119,16 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Reproductor_Audio_0
+      name: Guerreros_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 46
-        width: 1440
+        x: 60
+        y: 80
+        width: 1439
         height: 2559
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -163,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3f479a82e1b554489e47b9508989c97
-      internalID: 1919694331
+      spriteID: 27278f651f67aa84db5b2939967b2ef0
+      internalID: 1323443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reproductor_Audio_1
+      name: Guerreros_1
       rect:
         serializedVersion: 2
-        x: 1670
-        y: 2060
-        width: 432
-        height: 251
+        x: 1570
+        y: 1806
+        width: 544
+        height: 802
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe6ef95e5f9afd14aa8c1309ecab7f6b
-      internalID: -1076773206
+      spriteID: 9cef37edadd366f41b722507a1ea798c
+      internalID: -2124578960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reproductor_Audio_2
+      name: Guerreros_2
       rect:
         serializedVersion: 2
-        x: 1673
-        y: 1727
-        width: 426
-        height: 292
+        x: 1570
+        y: 954
+        width: 558
+        height: 821
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8893f4cd3ad156e4a9934934b6765b54
-      internalID: 749718074
+      spriteID: 675771bd3ff3e404b8f0646e5047e9bb
+      internalID: -1396664769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reproductor_Audio_3
+      name: Guerreros_3
       rect:
         serializedVersion: 2
-        x: 1674
-        y: 1426
-        width: 427
-        height: 266
+        x: 1568
+        y: 43
+        width: 576
+        height: 885
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +200,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09f89448a1f2d6341ad8c2e43a22d5ea
-      internalID: -156297948
+      spriteID: f4cd02aac43b2ec44a143d74b0076f69
+      internalID: -1979610640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerreros_4
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 141
+        width: 312
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a75e4bba20add4a80e39b8d2d772d8
+      internalID: -1352808565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerreros_5
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 1031
+        width: 199
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbd3b70bcb153442ad9f9acbaecda7a
+      internalID: -2024176701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerreros_6
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 1729
+        width: 366
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9509b5f4602e52f44aea8fbde1877a1f
+      internalID: 478066361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerreros_7
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 1951
+        width: 366
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ba7bc395a9a5e4d8f25005f45e81e0
+      internalID: -553201630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guerreros_8
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 2203
+        width: 166
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f99820b5a526654e9da4802787b6570
+      internalID: -464851665
       vertices: []
       indices: 
       edges: []
@@ -243,10 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Reproductor_Audio_0: 1919694331
-      Reproductor_Audio_1: -1076773206
-      Reproductor_Audio_2: 749718074
-      Reproductor_Audio_3: -156297948
+      Guerreros_0: 1323443
+      Guerreros_1: -2124578960
+      Guerreros_2: -1396664769
+      Guerreros_3: -1979610640
+      Guerreros_4: -1352808565
+      Guerreros_5: -2024176701
+      Guerreros_6: 478066361
+      Guerreros_7: -553201630
+      Guerreros_8: -464851665
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
